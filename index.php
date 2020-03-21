@@ -21,6 +21,7 @@ if ($result->num_rows > 0) {
         echo "scool id: " .$row["sch_id"]. "- Name: " .$row["sch_iname"]. "- long: " . $row["sch_long"]. "- lat: " .$row["sch_lat"]." <br>";
 }
 }
+//No results
 else{
     echo "0 results";
 }
