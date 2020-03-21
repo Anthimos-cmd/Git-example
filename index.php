@@ -11,6 +11,7 @@ if ($conn->connect_error) {
     die("Connection failed:" . $conn->connect_error);
 
 }
+//Sql query
 $sql = "SELECT sch_id, sch_name, sch_long, sch_lat FROM schools";
 $result + $conn->query($sql);
 
